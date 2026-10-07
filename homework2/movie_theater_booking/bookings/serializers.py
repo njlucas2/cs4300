@@ -24,6 +24,7 @@ class BookingSerializer(serializers.ModelSerializer):
         fields = ["id", "movie", "movie_title", "seat", "seat_number",
                   "user", "booking_date"]
         read_only_fields = ["booking_date"]
+        extra_kwargs = {"seat": {"validators": []}}
 
     def validate(self, data):
         """Reject seats that belong to a different movie or are already taken."""

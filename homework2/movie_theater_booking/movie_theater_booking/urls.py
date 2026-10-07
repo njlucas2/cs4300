@@ -21,4 +21,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api-auth/", include("rest_framework.urls")),  # login link in browsable API
     path("", include("bookings.urls")),
+    path("accounts/", include("django.contrib.auth.urls")),
 ]
