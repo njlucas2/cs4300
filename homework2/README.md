@@ -23,4 +23,4 @@ For this assignment, I conferred with Claude AI via claude.ai.
 
 I ran into many challenges while setting up this assignment and used Claude to help quickly figure out the source of my bugs/errors and understand why they happen. I also used Claude to generate the data shown for the demo, as well as the data used in the tests, so that they could accurately match real-world movie data. 
 
-At no point did Claude or other AI agent have direct access to the codebase.
+At no point did Claude or other AI agent have direct access to the codebase. I used Claude to write me code snippets which I added to my project one at a time, only some of which were actually included in the final assignment.
